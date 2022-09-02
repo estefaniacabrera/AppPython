@@ -1,7 +1,7 @@
 
-# PROYECTO HOYO EN UNO GOLF## 
+# PROYECTO HOYO EN UNO GOLF
 
-## El Proyecto busca ser una aplicación para gestionar datos de jugadores y canchas de golf#
+## El Proyecto busca ser una aplicación para gestionar datos de jugadores y canchas de golf
 
 
 ### Que se puede hacer en el proyecto?
