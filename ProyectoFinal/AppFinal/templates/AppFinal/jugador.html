@@ -1,0 +1,14 @@
+{% extends "AppFinal/padre.html" %}
+
+{% load static %}
+
+{% block titulo_de_pagina %}
+
+<h1>JUGADOR</h1>
+<form action="{% url 'jugador' %}" method="POST">{% csrf_token %}
+    <table>
+        {{ formulario.as_table }}
+    </table>
+    <input type="submit" , value="Enviar">
+</form>
+{% endblock %}

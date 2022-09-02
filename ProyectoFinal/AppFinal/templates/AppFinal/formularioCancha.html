@@ -1,0 +1,15 @@
+{% extends "AppFinal/padre.html" %}
+
+{% load static %}
+
+{% block titulo_de_pagina %}
+
+<h1>FORMULARIO DE CANCHA!</h1>
+<form action="{% url 'formularioCancha' %}" method="POST">{% csrf_token %}
+    <table>
+        {{ formulario.as_table }}
+    </table>
+    <input type="submit" , value="Enviar">
+</form>
+<h2>{{ mensaje }}</h2>
+{% endblock %}
